@@ -1,0 +1,48 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.menu > ul{
+    list-style: none;
+    text-align: right;
+    padding: 10px;
+    
+}
+
+.menu > ul > li {
+    display: inline;
+    padding: 10px;
+}
+
+.registro{
+    background:#FE7237;
+    border-radius: 20px;
+    color: white;
+}
+
+.imagem-principal > img{
+    width: 600px;
+    height: 500px;
+
+}
+.imagem-principal {
+    text-align: right;
+}
+
+.explorar{
+    background:#FE7237;
+    border-radius: 20px;
+    color: white;
+    width: 150px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.dashboard > img{
+    height: 50px;
+    width: 50px;
+}

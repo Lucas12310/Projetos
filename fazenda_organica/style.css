@@ -1,0 +1,48 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+:root {
+    --cor-primaria: #1B4436;
+    --cor-secundaria: #50AA5A;
+    --cor-terciaria: #FFFFFF;
+}
+
+.menu{
+    padding: 15px;
+    background: var(--cor-primaria);
+}
+.menu > ul{
+    list-style: none; /*menu ficar sim o pontinho da lista*/
+    margin-left: 10%;
+}
+.menu > ul > li{
+    display: inline; /*menu ficar na mesma linha*/
+    color: var(--cor-terciaria);
+    padding: 10px;
+}
+
+.titulo{
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    align-items: center;
+}
+.imagem{
+    background-image: url("../fazenda_organica/images/fundomenu.png");
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.titulo > h1{
+    background-color: var(--cor-primaria);
+}
+
+.titulo > img{
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+

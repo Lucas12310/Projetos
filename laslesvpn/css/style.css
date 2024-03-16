@@ -1,0 +1,68 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.menu-centro > ul{
+    list-style: none;
+    text-align: center;
+}
+.menu-centro > ul > li{
+    display: inline;
+}
+
+.menu-link:link {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px;
+    border-radius: 10%;
+    color: #000000;
+    
+}
+.menu-link:hover{
+    border: 2px #000000 solid;
+}
+
+header{
+    text-align: left;    
+}
+
+.menu-direita{
+    text-align: center;
+
+}
+.menu-direita > ul{
+    list-style: none;
+    padding-right: 100px;
+    text-align: right;
+
+}
+.menu-direita > ul > li{
+    display: inline;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.login{
+    border: 1px #000000 solid;
+    border-radius: 30%;
+}
+
+.botao{
+    background-color: red;
+    color: white;
+    display: flex;
+    border: 1px #000000 solid;
+    border-radius: 10%;
+    width: 300px;
+    margin-left: 20%;
+}
+
+.dashboard > img{
+    height: 50px;
+    width: 50px;
+}
