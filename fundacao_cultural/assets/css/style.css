@@ -1,0 +1,32 @@
+:root {
+    --cor-um:#253237;
+    --cor-dois: #949494;
+    --cor-tres:#C4C4C4;
+    --cor-quatro: #F1F1F1;
+    --font-corpo: "Quicksand";
+    --font-titulo: "Roboto";
+}
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+.menu{
+    display: flex;
+    justify-content: right;
+
+}
+
+.menu > ul{
+    list-style: none;
+}
+
+.menu > ul > li{
+    display: inline;    
+}
+
+.texto{
+    font-family: var(--font-corpo);
+}
