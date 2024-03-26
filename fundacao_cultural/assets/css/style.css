@@ -13,20 +13,114 @@
 }
 
 
+
 .menu{
     display: flex;
-    justify-content: right;
-
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: var(--cor-quatro);
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
 }
-
-.menu > ul{
+.menu-item:link {
+    text-decoration: none;   
+    
+}
+.menu-link > ul{
     list-style: none;
+    
 }
 
-.menu > ul > li{
+
+.menu-link > ul > li{
     display: inline;    
+    padding: 30px;
+    
 }
 
 .texto{
     font-family: var(--font-corpo);
+}
+
+.fogos{
+    display: flex;
+    justify-content: center;
+    padding-top: 60px ;
+    flex-direction: column;
+    padding-left: 10%;
+    
+}
+
+.fogos > img{
+    width: 1520px;
+}
+
+.fogos > div > h2{
+    padding-bottom: 20px;
+}
+.fogos > div > p{
+    padding-bottom: 20px;
+}
+
+.card{
+    width: 389px;
+    margin: 10px;   
+    
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 10%;
+    justify-content: space-between;
+    padding-right: 11%;
+}
+.card > p{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.titulo-vilhena{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.categorias{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.categoria-arquitetura{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 389px;
+    height: 140px;
+    background-image: url("../images/culinaria.png");
+    color: var(--cor-quatro);
+}
+.categoria-artes-cenicas{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 389px;
+    height: 140px;
+    background-image: url("../images/artesCenicas.png");
+    color: var(--cor-quatro);
+    
+}
+.categoria-artesanato{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 389px;
+    height: 140px;
+    background-image: url("../images/artesCenicas.png");
+    color: var(--cor-quatro);
+    
 }
