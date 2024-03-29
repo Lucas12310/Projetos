@@ -22,14 +22,12 @@
     
 }
 .menu > ul > li > a{
-    display: inline; /*menu ficar na mesma linha*/
     color: var(--cor-terciaria);
     padding: 10px;
     text-decoration: none;
-    
 }
 .menu > ul > li{
-    display: inline;
+    display: inline; /*menu ficar na mesma linha*/
 }
 
 

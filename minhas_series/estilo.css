@@ -1,0 +1,44 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+:root {
+    --cor-primaria:#000000;
+    --cor-secundaria:#FFFFFF;
+}
+
+.menu{
+    padding: 15px;
+    background: var(--cor-primaria);
+    color: var(--cor-secundaria);   
+    
+}
+.menu > ul{
+    list-style: none; /*menu ficar sim o pontinho da lista*/
+    margin-left: 10%;
+}
+.menu > ul > li > a{
+    color: var(--cor-secundaria);
+    padding: 10px;
+    text-decoration: none;
+}
+
+.menu > ul > li{
+    display: inline;
+    padding: 50px;
+}
+
+.fundo{
+    background-image: url("../minhas_series/images/fundo.png");
+    padding-bottom: 400px;
+    background-size: 100%; /*deixar o fundo do mesmo tamanho da tela*/
+    background-repeat: no-repeat;
+}
+
+.conteudo{
+    padding-left: 260px;
+    padding-top: 200px;
+}
