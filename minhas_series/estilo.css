@@ -8,6 +8,7 @@
 :root {
     --cor-primaria:#000000;
     --cor-secundaria:#FFFFFF;
+    --cor-terciaria: #C0392B;
 }
 
 .menu{
@@ -31,6 +32,26 @@
     padding: 50px;
 }
 
+#busca{
+    width: 60%;
+    font-size: 20px;
+}
+
+.busca{
+    padding-top: 30px;
+    color: var(--cor-secundaria);
+}
+
+.busca > form > label {
+    border: 1px solid #000000;
+    background-color: var(--cor-terciaria);
+    font-size: 20px;
+}
+.busca-rodape > form > label {
+    border: 1px solid #000000;
+    background-color: var(--cor-terciaria);
+    font-size: 20px;
+}
 .fundo{
     background-image: url("../minhas_series/images/fundo.png");
     height: 500px;
@@ -63,7 +84,7 @@
     color: var(--cor-secundaria);
     height: 200px;
     display: flex;
-    padding-left: 10%;
+    padding-left: 190px;
 }
 .conteudo-rodape{
     padding: 20px;
