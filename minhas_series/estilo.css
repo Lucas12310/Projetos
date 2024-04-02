@@ -100,6 +100,13 @@
 .conteudo-rodape > ul > li > a{
     text-decoration: none;
     color: var(--cor-secundaria);
-    
 }
 
+/*La casa de papel */
+
+.fundo-casa{
+    background-image: url("../minhas_series/images/fundolacasa.png");
+    height: 500px;
+    background-size: 100%; /*deixar o fundo do mesmo tamanho da tela*/
+    background-repeat: no-repeat;
+}
