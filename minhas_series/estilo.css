@@ -106,7 +106,18 @@
 
 .fundo-casa{
     background-image: url("../minhas_series/images/fundolacasa.png");
-    height: 500px;
+    height: 900px;
     background-size: 100%; /*deixar o fundo do mesmo tamanho da tela*/
     background-repeat: no-repeat;
+}
+
+.imagem-lacasa{
+    padding-left: 10%;
+    padding-top: 100px;
+    display: flex;
+    
+}
+
+.genero{
+    
 }
