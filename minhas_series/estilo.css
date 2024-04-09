@@ -118,6 +118,34 @@
     
 }
 
-.genero{
+.titulo{
+    text-align: center;
+}
+
+.imagens{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 10%;
+    padding-right: 10%;
+    justify-content: center;
+    justify-content: space-between;
     
+}
+
+.imagens > div {
+    margin: 20px;
+}
+.imagens > div > img {
+    height: 300px;
+    width: 500px;
+}
+
+.elenco {
+    display: flex;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.elenco > div {
+    padding-right: 170px;
 }
