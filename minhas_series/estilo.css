@@ -66,16 +66,16 @@
 
 .cards{
     display: flex;
-    justify-content: space-between;
     padding-left: 10%;
     padding-right: 10%;
     padding-top: 100px;
     padding-bottom: 100px;
+    flex-wrap: wrap;
 }
 
 .card{
     text-align: center;
-    padding-right: 20px;
+    padding-right: 50px;
     
 }
 
@@ -102,50 +102,9 @@
     color: var(--cor-secundaria);
 }
 
-/*La casa de papel */
 
-.fundo-casa{
-    background-image: url("../minhas_series/images/fundolacasa.png");
-    height: 900px;
-    background-size: 100%; /*deixar o fundo do mesmo tamanho da tela*/
-    background-repeat: no-repeat;
-}
-
-.imagem-lacasa{
-    padding-left: 10%;
-    padding-top: 100px;
-    display: flex;
-    
-}
-
-.titulo{
-    text-align: center;
-}
-
-.imagens{
-    display: flex;
-    flex-wrap: wrap;
-    padding-left: 10%;
-    padding-right: 10%;
-    justify-content: center;
-    justify-content: space-between;
-    
-}
-
-.imagens > div {
-    margin: 20px;
-}
-.imagens > div > img {
-    height: 300px;
-    width: 500px;
-}
-
-.elenco {
-    display: flex;
-    padding-left: 10%;
-    padding-right: 10%;
-}
-
-.elenco > div {
-    padding-right: 170px;
+@media(max-width:600px){
+    .card{
+        flex-direction: column;
+    }
 }
