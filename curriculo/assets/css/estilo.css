@@ -40,6 +40,7 @@ p{
     background: rgb(82, 87, 95);
     background: linear-gradient(0deg,rgba(72,98,136,0.7) 0%, rgba(152,51,108,0.7) 100%), url("../images/fundo.png");
     padding-top: 100px;
+    
 }
 .secao{
     margin: 8px;
@@ -91,7 +92,7 @@ p{
     justify-content: space-around;
 }
 
-@media (max-width: 600px){
+@media (max-width: 900px){
     .galeria {
         flex-direction: column;
     }

@@ -50,9 +50,7 @@
     display: flex;
     justify-content: center;
     padding-top: 60px ;
-    flex-direction: column;
-    padding-left: 10%;
-    
+    flex-direction: column;    
 }
 
 .fogos > img{
@@ -66,33 +64,42 @@
     padding-bottom: 20px;
 }
 
-.card{
-    width: 389px;
-    margin: 10px;   
-    
+main{
+    padding-left: 10%;
+
 }
 
+.card {
+    width: 387px;
+    height: 444px;
+    
+}
 .cards{
+    
+    width: 1520px;
     display: flex;
-    flex-wrap: wrap;
-    padding-left: 10%;
     justify-content: space-between;
-    padding-right: 11%;
+    
 }
 .card > p{
     padding-top: 10px;
     padding-bottom: 10px;
 }
 
+.card > img {
+    width: 385px;
+}
 .titulo-vilhena{
     text-align: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .categorias{
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
+    
+    width: 1520px;
 }
 
 .categoria-arquitetura{
@@ -120,7 +127,42 @@
     justify-content: flex-end;
     width: 389px;
     height: 140px;
-    background-image: url("../images/artesCenicas.png");
+    background-image: url("../images/moda.png");
     color: var(--cor-quatro);
-    
+}
+.categoria-artes-visuais{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 389px;
+    height: 140px;
+    background-image: url("../images/exposicoes.png");
+    color: var(--cor-quatro);
+}
+.categorias-cultura{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 389px;
+    height: 140px;
+    background-image: url("../images/culturas.png");
+    color: var(--cor-quatro);
+}
+.categorias-livros{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 389px;
+    height: 140px;
+    background-image: url("../images/literatura.png");
+    color: var(--cor-quatro);
+}
+.categorias-musica{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 389px;
+    height: 140px;
+    background-image: url("../images/musica.png");
+    color: var(--cor-quatro);
 }

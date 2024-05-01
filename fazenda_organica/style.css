@@ -30,35 +30,34 @@
     display: inline; /*menu ficar na mesma linha*/
 }
 
-
-.titulo{
-    display: flex;
-    justify-content:center;
-    flex-direction: column;
-    align-items: center;
-}
-.imagem{
+.titulo{ 
     background-image: url("../fazenda_organica/images/fundomenu.png");
     height: 400px;
     background-repeat: no-repeat;
     background-size: 100%;
-}
-.titulo > h1{
-    background-color: var(--cor-primaria);
-    color: var(--cor-terciaria);
-    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.titulo > img{
-    padding-bottom: 100px;
-    padding-top: 100px;
+.titulo > div {
+    margin-top: 70px;
 }
+
+.titulo-imagem{
+    background-color: var(--cor-primaria);
+    color: var(--cor-terciaria);
+    width: max-content;
+    height: max-content;
+}
+
+
 
 .cards{
     display: flex;
     flex-wrap: wrap;
+    margin-left: 10%;
 }
-
 
 .card{
     width: 389px;
@@ -160,4 +159,21 @@
 
 .conteudo > img {
     margin: 10px;
+}
+
+@media(max-width:600px){
+    .titulo > div {
+        margin-top: 0px;
+    }
+    .cards{
+        flex-direction: column;
+        margin-left: 0px;
+        align-items: center;
+    }
+    .menu{
+        text-align: center;
+    }
+    .titulo{ 
+        height: 120px;
+    }
 }
