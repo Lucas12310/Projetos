@@ -43,7 +43,7 @@ p{
 }
 .secao{
     margin: 8px;
-    
+    text-justify: justify;
 }
 .secao > img{
     margin: 10px;
@@ -85,3 +85,20 @@ p{
     padding: 8px;
 }
 
+.galeria {
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-around;
+}
+
+@media (max-width: 600px){
+    .galeria {
+        flex-direction: column;
+    }
+    .menu {
+        text-align: center;
+    }
+    main > h2{
+        text-align: center;
+    }
+}
